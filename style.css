@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-/* 
-font-family: 'Fraunces',
-serif;
-font-family: 'Montserrat',
-sans-serif; 
-*/
+
 
 body {
   background-color:hsl(30, 38%, 92%);
@@ -27,14 +22,13 @@ header {
 
 main {
   display: flex;
-  flex: 1;
   justify-content: center;
   font-family: 'Montserrat',
       sans-serif;
   background-color: hsl(0, 0%, 100%);
   border-radius: 12.5px;
   min-height: 60vh;
-  max-width: 60vw;
+  max-width: 47vw;
   overflow: hidden;
 }
 
@@ -44,6 +38,7 @@ main {
 
 .right {
   display: flex;
+  flex: 1 1;
   flex-direction: column;
   justify-content: space-between;
   padding: 40px;
@@ -64,14 +59,15 @@ img {
 
 .heading {
   font-family: 'Fraunces', serif;
-  color: hsl(158, 36%, 37%);
+  color: black;
   font-weight: 700;
   font-size: 2rem;
 }
 
 .copy {
   color: hsl(228, 12%, 48%);
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .prices {
@@ -89,16 +85,18 @@ img {
 .list-price {
   color: hsl(228, 12%, 48%);
   text-decoration: line-through;
+  padding-left: 2.5em;
 }
 
 button {
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   border: none;
-  border-radius: 6px;
+  border-radius: 9px;
   height: 4em;
+  font-size: 1.1rem;
 }
 
 
@@ -112,6 +110,7 @@ footer {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-bottom: 1em;
   }
 .attribution a {
     color: hsl(228, 45%, 44%);
