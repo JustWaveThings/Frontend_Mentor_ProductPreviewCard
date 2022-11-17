@@ -25,7 +25,6 @@ header {
 main {
   display: flex;
   justify-content: center;
- 
   background-color: hsl(0, 0%, 100%);
   border-radius: 12.5px;
   min-height: 60vh;
@@ -52,7 +51,7 @@ main {
   margin: 40px;
 }
 
-img {
+.productimg {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -106,9 +105,14 @@ button {
   border-radius: 9px;
   height: 4em;
   font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.icon {
+  margin-right: 1em;
+}
 
 footer {
   display: flex;
@@ -116,7 +120,7 @@ footer {
   align-items: flex-end;
 }
 
-.attribudtion {
+.attribution {
     font-size: 11px;
     text-align: center;
     margin-bottom: 1em;
